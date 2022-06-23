@@ -1,2 +1,2 @@
 # projeto-tarendendo
-aplicativo mobile de educação financeira 
+aplicativo mobile de finanças
