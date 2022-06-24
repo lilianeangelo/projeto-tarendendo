@@ -1,10 +1,10 @@
 package model
 
-import(
-	
+import (
+
 )
 
-
+// User struct
 type User struct {
 	UserId string 		`json:"id"`
 	Name string 		`json:"name"`
@@ -18,3 +18,13 @@ type User struct {
 	State string 		`json:"state"`
 	Country string 		`json:"country"`
 }
+
+// Account struct
+type Account struct {
+	AccountId string 		`json:"id"`
+	Name string 			`json:"name"`
+	User User 				`json:"user"`
+}
+
+
+//implementar request e response
