@@ -1,7 +1,7 @@
 package model
 
 import (
-
+	"time"
 )
 
 // User struct
@@ -17,6 +17,8 @@ type User struct {
 	City string 		`json:"city"`
 	State string 		`json:"state"`
 	Country string 		`json:"country"`
+	CreatedAt          time.Time    `json:"created_at" bson:"created_at"`
+	ValidatedAt        time.Time    `json:"validated_at" bson:"validated_at,omitempty"`
 }
 
 // Account struct
