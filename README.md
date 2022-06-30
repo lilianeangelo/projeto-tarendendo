@@ -1,2 +1,2 @@
 # projeto-tarendendo
-aplicativo mobile de finanças
+backend do aplicativo mobile de finanças
